@@ -1,9 +1,9 @@
 package escandalosos;
 
-public class Charlie extends Animal{
+public class Pie_grande extends Animal{
 	private String velocidad;
 
-	public Charlie(String nombre, String raza, String color, String perosnalidad, String velocidad) {
+	public Pie_grande(String nombre, String raza, String color, String perosnalidad, String velocidad) {
 		super(nombre, raza, color, perosnalidad);
 		this.velocidad = velocidad;
 	}

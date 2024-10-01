@@ -3,11 +3,11 @@ package escandalosos;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Chloe extends Animal{
+public class Humano extends Animal{
 	private boolean estudia;
 	private List<String> intereces;
 	
-	public Chloe(String nombre, String raza, String color, String perosnalidad, boolean estudia,
+	public Humano(String nombre, String raza, String color, String perosnalidad, boolean estudia,
 			List<String> intereces) {
 		super(nombre, raza, color, perosnalidad);
 		this.estudia = estudia;

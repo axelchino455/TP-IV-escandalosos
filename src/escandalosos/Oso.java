@@ -60,6 +60,16 @@ public class Oso extends Animal{
 	}
 	
 	
+	// Metodo para mostrar todas las habilidades de un Oso:
+	public void mostrarHabilidades(Oso oso1) {
+		for(int i=0; i<oso1.getHabilidades().size(); i++) {
+			System.out.println("Habilidad N°"+(i+1)+" de "+oso1.getNombre()+": "+oso1.habilidades.get(i));
+		}
+		System.out.println("");
+			
+	}
+	
+	
 	
 	
 	

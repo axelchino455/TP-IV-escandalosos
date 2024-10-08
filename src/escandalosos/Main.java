@@ -43,7 +43,27 @@ public class Main {
 		Oso Polar = new Oso("Polar", "oso polar", "blaco", "callado", habilidadesPolar, false, interecesPolar, false);
 		
 		// listo solo falta traer los datos correctos
-		System.out.print();
+		List<Oso> Lista_Osos = new ArrayList<>();
+		Lista_Osos.add(Pardo);
+		Lista_Osos.add(Panda);
+		Lista_Osos.add(Polar);
+		
+		System.out.println("Nombres de los osos:");
+		for(int i=0; i<Lista_Osos.size(); i++) {
+			System.out.println(Lista_Osos.get(i).getNombre());
+		}
+		System.out.println("");
+		
+		
+		
+		
+		// Mostrar Habilidades con el metodo mostrarHabilidades("Aqui va como parametro el objeto");
+		Polar.mostrarHabilidades(Polar);
+		Pardo.mostrarHabilidades(Pardo);
+		Panda.mostrarHabilidades(Panda);
+		
+		
+		
 	}
 
 }
